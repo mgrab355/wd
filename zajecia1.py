@@ -63,6 +63,7 @@ slownik2 = {
     'wiek ': 21,
     'wzrost ': '192'} #drugi sposob na napisanie slwonika
 print(slownik2)
+print(slownik2)
 print(slownik2.keys())
 print(slownik2.items())
 print(slownik2['imie '])
@@ -75,6 +76,6 @@ print(slownik2['imie '])
 
 import math as m
 m.pow(2, 2)
-
+print (2)
 
 
