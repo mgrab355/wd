@@ -24,3 +24,15 @@ print("ala ma " +str(5) + " lat")
 
 print("ala ma {} lat".format(5))
 print("ala ma {1} lat a marta {0}".format(5,10))
+
+imie = "Malgorzata"
+print(imie[4])
+print(imie.lower())
+imie = imie.lower()#obie formy poprawne
+print(imie)
+"Wojtek".lower().lstrip().rsplit() #mechanizm lancuchowania
+
+#listy
+
+lista = []
+print(type(lista))
