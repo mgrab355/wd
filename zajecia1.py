@@ -36,3 +36,45 @@ print(imie)
 
 lista = []
 print(type(lista))
+
+lista2 = [1, 2, 3, 4, 5, 6, 7,]
+lista2[3]
+lista3 = lista + lista2
+print(lista3)
+
+lista4=[1, "ala", imie, 3.4, [1,3]] #Listy moga przechowywac rozne typy danych
+
+print(lista4[4][1])#wypisanie elementu z listy dwupoziomowej
+
+macierz= [ [1, 2, 3], [4, 5, 6], [7, 8, 9] ]
+
+print(macierz[1][1])#wypisanie 5 ( zaczyna sie od 0)
+
+#slownik
+
+slownik = {}
+print(type(slownik))
+#<class 'dict'>
+slownik["imie"] = "Marek"
+print(slownik)
+
+slownik2 = {
+    'imie ': 'Marek',
+    'wiek ': 21,
+    'wzrost ': '192'} #drugi sposob na napisanie slwonika
+print(slownik2)
+print(slownik2.keys())
+print(slownik2.items())
+print(slownik2['imie '])
+
+#import
+
+# from math import *
+# from math import pow
+# pow(2, 2)
+
+import math as m
+m.pow(2, 2)
+
+
+
